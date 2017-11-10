@@ -1,0 +1,60 @@
+/* BASE QUIZ STYLES */
+/* These styles ensure that the necessary elements are hidden for toggling */
+
+/* DO NOT EDIT UNLESS YOU KNOW WHAT YOU ARE DOING!! */
+
+.startQuiz,
+.nextQuestion,
+.backToQuestion,
+.questions li.question,
+.questions li.question .responses,
+.questions li.question .responses .correct,
+.questions li.question .responses .incorrect,
+.quizResults {
+    display: none;
+}
+
+/* If response messages are disabled or only shown on quiz completion,
+   nextQuestion button IS checkAnswer button - so it must be displayed */
+.nextQuestion.checkAnswer {
+    display: block;
+}
+
+ol.questions,
+ul.answers,
+ul.responses,
+ol.questions li,
+ul.responses li {
+   list-style-type: none; 
+}
+
+ul.answers li{
+ display      : inline-block;
+  margin-left  : -2em;
+   margin-top:-10px;
+  text-align:left;
+  background-image :    -moz-linear-gradient(rgb(205,201,201),rgb(240,240,240));
+  background-image :     -ms-linear-gradient(rgb(205,201,201),rgb(240,240,240));
+  background-image :      -o-linear-gradient(rgb(205,201,201),rgb(240,240,240));
+  background-image : -webkit-linear-gradient(rgb(205,201,201),rgb(240,240,240));
+  background-image :         linear-gradient(rgb(205,201,201),rgb(240,240,240));
+  width:300px;
+  height:25px;
+   
+}
+
+/* Accessibility */
+.quizName span:first-child {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    font-family: Roboto-Bold;
+    font-size: 26px;
+    color: #000000;
+    letter-spacing: 0;
+}
