@@ -10,6 +10,57 @@ html {
     url(../images/bgpattern.png) repeat,#ADD8E6;
     
 }
+
+
+
+.answers input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  -moz-opacity: 0;
+  -webkit-opacity: 0;
+  -o-opacity: 0;
+}
+
+.answers input[type="radio"] + label {
+  position: relative;
+  margin-bottom:7px;
+  margin-left:5px;
+  font-size: 16px;
+  line-height: 25px;
+  padding-left:15px;
+}
+
+.answers input[type="radio"] + label:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 2px;
+  height: 14px;
+  width: 14px;
+  background: white;
+  border: 1px solid gray;
+  box-shadow: inset 0px 0px 0px 2px white;
+  -webkit-box-shadow: inset 0px 0px 0px 2px white;
+  -moz-box-shadow: inset 0px 0px 0px 2px white;
+  -o-box-shadow: inset 0px 0px 0px 2px white;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.answers input[type="radio"]:checked + label:before {
+  background: #00BFFF;
+}
+.quizAreaAppendClass{
+    background:#E6E6FA;
+    border:1px solid;
+    border-color:#B0C4DE;
+    opacity: 0.7;
+  -moz-opacity: 0.7;
+  -webkit-opacity: 0.7;
+  -o-opacity: 0.7;
+    
+}
 #gametitle{
     
     font-family: AbrilFatface-Regular;
@@ -150,6 +201,8 @@ ul.answers {
 
 ul.responses li {
     margin: 10px 20px 20px;
+    
+    
 }
 ul.responses li p span {
     display: block;
@@ -157,6 +210,10 @@ ul.responses li p span {
     font-size: 18px;
     -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: black;
+   
+   
+   
+   
 }
 .complete ul.answers li.correct, ul.responses li.correct p span {
     color: #6C9F2E;

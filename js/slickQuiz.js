@@ -352,7 +352,8 @@
                 document.getElementById('gametitle').style.display = 'none';
                 document.getElementById('quizHeader').style.display = 'none';
                 
-                
+                var element = document.getElementById('quizArea');
+                element.className += " " + "quizAreaAppendClass";
                 
                 var key, keyNotch, kN;
                 key = internal.method.getKey (1); // how many notches == how many jQ animations you will run
