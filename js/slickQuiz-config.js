@@ -6,7 +6,7 @@ var quizJSON = {
     "info": {
         "name":    "How well do you know what's going on in your city?",
         "main":    "<p>Find out in this quiz!</p>",
-        "results": "<h5>Learn More</h5><p><a href='https://goo.gl/LT9hBy'>Please participate in our short survey</a></p>",
+        "results": "<h5><a href='http://montrealgazette.com/news/local-news/montreal-police-seek-armed-and-dangerous-suspect-in-hospital-robbery' target='_blank'>http://montrealgazette.com/news/local-news/montreal-police-seek-armed-and-dangerous-suspect-in-hospital-robbery <br/><br/> Learn More</a></h5><p><a href='https://goo.gl/LT9hBy'>Please participate in our short survey</a></p>",
         "level1":  "Jeopardy Ready",
         "level2":  "Jeopardy Contender",
         "level3":  "Jeopardy Amateur",
