@@ -54,7 +54,7 @@ var quizJSON = {
                 {"option": "Montreal",     "correct": false},
             ],
             "correct": "<p><span>That's right!</span> Keep going</p>",
-            "incorrect": "<p><span><img src='Proto01_01a.gif'>WELLLL!</span> He's still on the loose! <br/> Thanks for playing. We'll post a new quiz very soon!</p>" // no comma here
+            "incorrect": "<p><span><img src='Proto01_01a.gif'>WELL!</span> He's still on the loose! <br/> Thanks for playing. Click next to learn more about the actual crime.</p>" // no comma here
         } // no comma here
     ]
 };
